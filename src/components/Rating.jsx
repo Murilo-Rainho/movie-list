@@ -6,9 +6,7 @@ class Rating extends Component {
     const { rating } = this.props;
 
     return (
-      <div className="movie-card-rating">
-        <h3 className="rating">{rating}</h3>
-      </div>
+      <h3 className="rating">Rating: {rating}</h3>
     );
   }
 }
