@@ -7,16 +7,31 @@ class Footer extends Component {
         <h2>Trybe web developer course project</h2>
         <h2>Developed by Murilo Rainho</h2>
         <ul>
-          <li>Cel: +55 (18) 99638-1996</li>
-          <li>murilorainho01@gmail.com</li>
+          <li><a 
+            href="https://www.webcreative.com.br/artigo/link-para-abrir-whatsapp-no-seu-site"
+            target="_blank" 
+            rel="noreferrer"><img 
+              src="images/logo_whatsapp.png" 
+              alt="WhatsApp Logo" 
+              width="40px" /></a></li>
+          <li><a 
+            href="mailto:murilorainho01@gmail.com?subject=Gostaria de me contratar?"
+            target="_blank" 
+            rel="noreferrer"><img 
+              src="images/logo_gmail.png" 
+              alt="Gmail Logo" 
+              width="40px" /></a></li>
           <li><a 
             href="https://github.com/Murilo-Rainho/" 
             target="_blank" 
-            rel="noreferrer">My GitHub</a></li>
+            rel="noreferrer"><img 
+              src="images/logo_github.png" 
+              alt="GitHub Logo" 
+              width="40px" /></a></li>
           <li><a 
             href="https://www.linkedin.com/in/murilo-rainho-882071218/" 
             target="_blank" 
-            rel="noreferrer">My LinkedIn</a></li>
+            rel="noreferrer"><img src="images/logo_linkedin.png" alt="LinkedIn Logo" width="40px" /></a></li>
         </ul>
       </div>
     );

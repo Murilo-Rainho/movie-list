@@ -109,6 +109,7 @@ body {
   flex-direction: column;
   height: 12em;
   justify-content: space-around;
+  padding: 15px 5px;
 }
 
 .footer h2 {
@@ -120,9 +121,4 @@ body {
   justify-content: space-around;
   list-style: none;
   padding: 0;
-}
-
-.footer ul li a {
-  color: inherit;
-  text-decoration: none;
 }
