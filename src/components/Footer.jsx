@@ -8,7 +8,7 @@ class Footer extends Component {
         <h2>Developed by Murilo Rainho</h2>
         <ul>
           <li><a 
-            href="https://www.webcreative.com.br/artigo/link-para-abrir-whatsapp-no-seu-site"
+            href="https://wa.me/5518996381996"
             target="_blank" 
             rel="noreferrer"><img 
               src="images/logo_whatsapp.png" 
