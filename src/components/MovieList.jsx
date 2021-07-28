@@ -4,12 +4,13 @@ import MovieCard from './MovieCard';
 
 class MovieList extends Component {
   render() {
-    const { movies } = this.props;
+    const { movies, onClick } = this.props;
 
     return (
       <div className="movie-list">
         { movies.map((movie) => (
           <MovieCard
+            onClick={ onClick }
             movie={ movie }
             key={ movie.title }
           />
