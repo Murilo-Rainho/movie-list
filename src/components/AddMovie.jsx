@@ -157,8 +157,8 @@ class AddMovie extends Component {
             onChange={this.handleChange}
           >
             <option data-testid="genre-option" value="action">Ação</option>
-            <option data-testid="genre-option" value="comedy">Comédia</option>
-            <option data-testid="genre-option" value="thriller">Suspense</option>
+            <option data-testid="genre-option" value="animation">Animação</option>
+            <option data-testid="genre-option" value="fiction">Ficção</option>
           </select>
         </label>
       </div>
